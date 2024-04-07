@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "crop"
-version = "0.0.1"
+version = "0.0.2"
 authors = [{ name = "moutella", email = "joaogabrielmsc@gmail.com" }]
 description = "Easy image Cropper CLI."
 readme = "README.md"
