@@ -5,9 +5,9 @@ The dafult resolution is 1920x1080
 
 ## How to install
 1. Install [pipx](https://github.com/pypa/pipx)
-2. Install crop
+2. Install easycrop
 ```sh
-pipx install crop
+pipx install easycrop
 ```
 
 ## How to use:

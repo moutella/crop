@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "crop"
+name = "easycrop"
 version = "0.0.3"
 authors = [{ name = "moutella", email = "joaogabrielmsc@gmail.com" }]
 description = "Easy image Cropper CLI."
@@ -17,7 +17,7 @@ classifiers = [
 ]
 
 [project.scripts]
-crop = "crop.cli:main"
+crop = "easycrop.cli:main"
 
 [project.urls]
 Homepage = "https://github.com/moutella/crop"
