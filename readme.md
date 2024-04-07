@@ -14,7 +14,7 @@ pipx install crop
 <details>
   <summary>Base Image</summary>
 
-  ![image](examples/kanagawa.jpg)
+![Base image](https://github.com/moutella/crop/blob/main/examples/kanagawa.jpg?raw=True))
 
 </details>
 
@@ -26,11 +26,11 @@ crop examples/kanagawa.jpg -height 300 -width 300
 <details>
   <summary>Output Focused 300x300</summary>
 
-  ![image](examples/kanagawa-300x300.jpg)
+  ![300x300](https://github.com/moutella/crop/blob/main/examples/kanagawa-300x300.jpg?raw=True))
 
 </details>
 
-3. Resize image to keep maximum information possible
+1. Resize image to keep maximum information possible
 
 ```sh
 crop examples/kanagawa.jpg -height 450 -width 450 -resize
@@ -38,7 +38,7 @@ crop examples/kanagawa.jpg -height 450 -width 450 -resize
 <details>
   <summary>Output: resized then 450x450, </summary>
 
-  ![image](examples/kanagawa-450x450.jpg)
+  ![450x450](https://github.com/moutella/crop/blob/main/examples/kanagawa-450x450.jpg?raw=True))
 
 </details>
 
@@ -50,12 +50,12 @@ crop examples/kanagawa.jpg -ratio 1:1
 <details>
   <summary>Output: 2990x2990</summary>
     
-  ![image](examples/kanagawa-2990x2990.jpg)
+  ![2990x2990](https://github.com/moutella/crop/blob/main/examples/kanagawa-2990x2990.jpg?raw=True))
 
 </details>
 
 
-4. Make it recursive
+1. Make it recursive
 
 ```sh
 crop -r {folder} -height {height} -width {width}
