@@ -4,16 +4,20 @@ build-backend = "hatchling.build"
 
 [project]
 name = "crop"
-version = "0.0.2"
+version = "0.0.3"
 authors = [{ name = "moutella", email = "joaogabrielmsc@gmail.com" }]
 description = "Easy image Cropper CLI."
 readme = "README.md"
 requires-python = ">=3.8"
+dependencies = ["Pillow"]
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
+
+[project.scripts]
+crop = "crop.cli:main"
 
 [project.urls]
 Homepage = "https://github.com/moutella/crop"
